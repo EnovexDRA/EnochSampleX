@@ -1,0 +1,748 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #172033;
+    min-height: 100vh;
+}
+
+
+/* ======================================
+   HEADER
+====================================== */
+
+.header {
+    width: 100%;
+    padding: 22px 7%;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e9f2;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.school-logo {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.school-brand h1 {
+    font-size: 20px;
+}
+
+.school-brand p {
+    margin-top: 4px;
+    color: #718096;
+    font-size: 12px;
+}
+
+.portal-label {
+    color: #526071;
+    font-size: 14px;
+}
+
+.portal-label span {
+    color: #22c55e;
+    margin-right: 5px;
+}
+
+
+/* ======================================
+   MAIN
+====================================== */
+
+.main-container {
+    width: 86%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+
+/* ======================================
+   LOGIN SECTION
+====================================== */
+
+.login-section {
+    min-height: 650px;
+
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+.welcome-section {
+    padding: 20px;
+}
+
+.small-title {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2563eb;
+}
+
+.welcome-section h2 {
+    margin-top: 18px;
+
+    font-size: 55px;
+    line-height: 1.05;
+}
+
+.welcome-section h2 span {
+    color: #2563eb;
+}
+
+.welcome-section p {
+    max-width: 560px;
+    margin-top: 25px;
+
+    color: #677489;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.feature-list {
+    margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    color: #334155;
+}
+
+.feature-icon {
+    width: 25px;
+    height: 25px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #dcfce7;
+    color: #16a34a;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* ======================================
+   LOGIN CARD
+====================================== */
+
+.login-card {
+    background: #ffffff;
+
+    padding: 38px;
+
+    border-radius: 22px;
+
+    border: 1px solid #e7ebf2;
+
+    box-shadow: 0 20px 50px rgba(30, 50, 80, 0.09);
+}
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eff6ff;
+
+    font-size: 23px;
+}
+
+.login-card h3 {
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.card-description {
+    margin-top: 8px;
+    margin-bottom: 28px;
+
+    color: #7b8797;
+    font-size: 14px;
+}
+
+.login-card label {
+    display: block;
+
+    margin-top: 18px;
+    margin-bottom: 8px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.login-card input {
+    width: 100%;
+    height: 50px;
+
+    padding: 0 15px;
+
+    border: 1px solid #d9e0ea;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 15px;
+
+    transition: 0.2s;
+}
+
+.login-card input:focus {
+    border-color: #2563eb;
+
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+}
+
+.login-button {
+    width: 100%;
+    height: 52px;
+
+    margin-top: 25px;
+
+    border: none;
+    border-radius: 11px;
+
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+.login-button:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 12px 25px rgba(37, 99, 235, 0.23);
+}
+
+.login-button span {
+    margin-left: 8px;
+}
+
+.login-message {
+    min-height: 25px;
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    font-size: 13px;
+}
+
+.login-help {
+    margin-top: 25px;
+    padding: 14px;
+
+    border-radius: 10px;
+
+    background: #f8fafc;
+
+    color: #64748b;
+
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+
+/* ======================================
+   RESULT SECTION
+====================================== */
+
+.result-section {
+    animation: fadeIn 0.4s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.result-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+
+    margin-bottom: 25px;
+}
+
+.result-top h2 {
+    margin-top: 8px;
+
+    font-size: 34px;
+}
+
+.result-top p {
+    margin-top: 5px;
+
+    color: #718096;
+}
+
+.result-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.secondary-button,
+.logout-button {
+    padding: 12px 17px;
+
+    border-radius: 9px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+.secondary-button {
+    border: 1px solid #dbe3ee;
+
+    background: white;
+
+    color: #334155;
+}
+
+.logout-button {
+    border: none;
+
+    background: #fee2e2;
+
+    color: #b91c1c;
+}
+
+
+/* ======================================
+   STUDENT CARD
+====================================== */
+
+.student-card {
+    background: white;
+
+    padding: 25px;
+
+    border: 1px solid #e4eaf2;
+
+    border-radius: 17px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+
+    box-shadow: 0 8px 25px rgba(30, 50, 80, 0.04);
+}
+
+.student-avatar {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+
+    color: white;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.student-details h3 {
+    font-size: 23px;
+}
+
+.student-meta {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px 28px;
+
+    margin-top: 10px;
+
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+
+/* ======================================
+   SESSION
+====================================== */
+
+.session-card {
+    margin-top: 18px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+}
+
+.session-card > div {
+    background: white;
+
+    padding: 20px;
+
+    border: 1px solid #e5eaf1;
+
+    border-radius: 15px;
+}
+
+.session-card span {
+    display: block;
+
+    color: #7b8797;
+
+    font-size: 12px;
+
+    margin-bottom: 7px;
+}
+
+.session-card strong {
+    font-size: 17px;
+}
+
+
+/* ======================================
+   SUMMARY
+====================================== */
+
+.summary-grid {
+    margin-top: 18px;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 15px;
+}
+
+.summary-box {
+    background: white;
+
+    padding: 22px;
+
+    border: 1px solid #e5eaf1;
+
+    border-radius: 15px;
+}
+
+.summary-box span {
+    display: block;
+
+    color: #7b8797;
+
+    font-size: 12px;
+
+    margin-bottom: 12px;
+}
+
+.summary-box strong {
+    font-size: 25px;
+}
+
+.summary-box small {
+    color: #7b8797;
+}
+
+
+/* ======================================
+   RESULTS TABLE
+====================================== */
+
+.table-container {
+    margin-top: 22px;
+
+    background: white;
+
+    border: 1px solid #e5eaf1;
+
+    border-radius: 17px;
+
+    overflow: hidden;
+}
+
+.table-heading {
+    padding: 22px 24px;
+
+    border-bottom: 1px solid #e5eaf1;
+}
+
+.table-heading h3 {
+    font-size: 19px;
+}
+
+.table-heading p {
+    margin-top: 5px;
+
+    color: #7b8797;
+
+    font-size: 13px;
+}
+
+.table-wrapper {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    min-width: 760px;
+}
+
+thead {
+    background: #f8fafc;
+}
+
+th,
+td {
+    padding: 17px 18px;
+
+    text-align: left;
+
+    border-bottom: 1px solid #edf1f6;
+
+    font-size: 13px;
+}
+
+th {
+    color: #64748b;
+
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+}
+
+td {
+    color: #334155;
+}
+
+.grade-badge {
+    display: inline-block;
+
+    padding: 5px 9px;
+
+    border-radius: 7px;
+
+    background: #eff6ff;
+
+    color: #2563eb;
+
+    font-weight: bold;
+
+    font-size: 12px;
+}
+
+
+/* ======================================
+   NOTE
+====================================== */
+
+.result-note {
+    margin-top: 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5eaf1;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    color: #64748b;
+
+    line-height: 1.6;
+
+    font-size: 13px;
+}
+
+.result-note strong {
+    color: #334155;
+}
+
+
+/* ======================================
+   FOOTER
+====================================== */
+
+.footer {
+    margin-top: 70px;
+
+    padding: 25px 7%;
+
+    background: #172033;
+
+    color: #b8c2d1;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 12px;
+}
+
+
+/* ======================================
+   ANIMATION
+====================================== */
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* ======================================
+   RESPONSIVE DESIGN
+====================================== */
+
+@media (max-width: 900px) {
+
+    .login-section {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .welcome-section h2 {
+        font-size: 43px;
+    }
+
+    .summary-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .header {
+        padding: 18px 5%;
+    }
+
+    .portal-label {
+        display: none;
+    }
+
+    .main-container {
+        width: 92%;
+
+        margin: 30px auto;
+    }
+
+    .login-card {
+        padding: 25px;
+    }
+
+    .welcome-section h2 {
+        font-size: 36px;
+    }
+
+    .student-card {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .session-card {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .result-top {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .result-actions {
+        width: 100%;
+    }
+
+    .secondary-button,
+    .logout-button {
+        flex: 1;
+    }
+
+    .footer {
+        flex-direction: column;
+
+        gap: 8px;
+
+        text-align: center;
+    }
+
+}
